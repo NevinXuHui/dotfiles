@@ -1,0 +1,99 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "vscode-edge-devtools.webhint": false,
+    "clangd.path": "/home/nevinxu/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/15.0.6/clangd_15.0.6/bin/clangd",
+    "C_Cpp.default.intelliSenseMode": "linux-clang-x64",
+    "C_Cpp.default.compilerPath": "\"\"",
+    "clangd.detectExtensionConflicts": false,
+    "codestream.serverUrl": "https://api.codestream.com",
+    "git.enableSmartCommit": true,
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "editor.fontWeight": "550",
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.fontWeightBold": "700",
+    "editor.insertSpaces": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+    "workbench.editor.wrapTabs": true,
+    "files.autoSave": "onFocusChange",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.confirmSync": false,
+    "editor.wordWrap": "on",
+
+    "vim.easymotionDimBackground": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-x>": false,
+      "<C-c>": false,
+      "<C-v>": false,
+      "<C-a>": false,
+      "<C-k>": false,
+      "<C-f>": false,
+      "<C-,>": false
+    },
+    "files.exclude": {
+      "**/*.depend": true,
+      "**/*.o": true
+    },
+    "search.exclude": {
+      "**/.history": true
+    },
+    "search.actionsPosition": "auto",
+    "search.collapseResults": "auto",
+    "search.defaultViewMode": "tree",
+    "search.experimental.notebookSearch": true,
+    "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
+    "search.searchEditor.reusePriorSearchConfiguration": true,
+    "search.showLineNumbers": true,
+    "terminal.external.linuxExec": "Konsole",
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.rightClickBehavior": "copyPaste",
+    "terminal.integrated.scrollback": 10000000,
+    "terminal.integrated.shellIntegration.history": 1000000,
+    "terminal.integrated.shellIntegration.suggestEnabled": true,
+    "editor.lineNumbers": "relative",
+    "editor.glyphMargin": true,
+    // "editor.foldingImportsByDefault": true,
+    "editor.unfoldOnClickAfterEndOfLine": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.autoExpandLazyVariables": true,
+    "debug.console.closeOnEnd": true,
+    "debug.openDebug": "neverOpen",
+    "debug.openExplorerOnEnd": true,
+    "workbench.colorCustomizations": {
+      "editor.selectionBackground": "#f54813",
+      "editor.selectionHighlightBackground": "#139bf5"
+    }
+
+}
