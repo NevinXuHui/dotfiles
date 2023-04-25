@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Network;WebBrowser;
+Comment=Sangfor ssl vpn client
+Exec=env LD_LIBRARY_PATH=/usr/share/sangfor/EasyConnect/oldlib/pango/usr/lib /usr/share/sangfor/EasyConnect/EasyConnect --enable-transparent-visuals --disable-gpu
+GenericName=vpn client
+Icon=EasyConnect
+Name=EasyConnect
+StartupNotify=false
+Terminal=false
+Type=Application
+X-Desktop-File-Install-Version=0.22

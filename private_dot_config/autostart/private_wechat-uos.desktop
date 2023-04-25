@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=微信桌面版
+Exec=wechat-uos %U
+Icon=weixin
+Keywords=wechat;weixin;wechat-uos;
+Name=微信
+StartupWMClass=微信
+Terminal=false
+Type=Application

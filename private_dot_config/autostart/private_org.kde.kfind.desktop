@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Qt;KDE;Utility;
+Exec=kfind %u
+GenericName[zh_CN]=查找文件/文件夹
+GenericName=Find Files/Folders
+Icon=kfind
+Name[zh_CN]=KFind 文件查找工具
+Name=KFind
+OnlyShowIn=KDE;
+Type=Application
+X-DBUS-ServiceName=org.kde.kfind
+X-DocPath=kfind/index.html
+X-KDE-StartupNotify=true

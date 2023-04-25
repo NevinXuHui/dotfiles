@@ -1,0 +1,35 @@
+[Desktop Action Capture]
+Exec=flameshot gui --delay 500
+Name[zh_CN]=进行截图
+Name=Take screenshot
+
+[Desktop Action Configure]
+Exec=flameshot config
+Name[zh_CN]=配置
+Name=Configure
+
+[Desktop Action Launcher]
+Exec=flameshot launcher
+Name[zh_CN]=打开启动器
+Name=Open launcher
+
+[Desktop Entry]
+Actions=Configure;Capture;Launcher;
+Categories=Graphics;
+Comment[zh_CN]=强大又易用的屏幕截图软件
+Comment=Powerful yet simple to use screenshot software.
+Exec=/usr/bin/flameshot
+GenericName[zh_CN]=屏幕截图工具
+GenericName=Screenshot tool
+Icon=org.flameshot.Flameshot
+Keywords[zh_CN]=flameshot;screenshot;capture;shutter;截图;屏幕;
+Keywords=flameshot;screenshot;capture;shutter;
+Name[zh_CN]=火焰截图
+Name=Flameshot
+StartupNotify=false
+StartupWMClass=flameshot
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=org.flameshot.Flameshot
+X-DBUS-StartupType=Unique
+X-KDE-DBUS-Restricted-Interfaces=org.kde.kwin.Screenshot,org.kde.KWin.ScreenShot2

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=移动办公
+Exec=/opt/apps/yidongbangong/yidongbangong --no-sandbox %U
+Icon=yidongbangong
+Name=移动办公
+StartupWMClass=移动办公
+Terminal=false
+Type=Application
