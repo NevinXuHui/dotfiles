@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[zh_CN]=
+Comment=
+Exec=/mine/ubusd.sh
+GenericName[zh_CN]=
+GenericName=
+Icon=dialog-scripts
+MimeType=
+Name[zh_CN]=ubusd.sh
+Name=ubusd.sh
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-AutostartScript=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
