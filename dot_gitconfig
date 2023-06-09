@@ -1,3 +1,6 @@
 [user]
 	name = xuhui
-	email = xuhui@cmhi.chinamobile.com
+	email = 18867103881@139.com
+[oh-my-zsh]
+	hide-status = 1
+	hide-dirty = 1
