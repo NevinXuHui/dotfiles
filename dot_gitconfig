@@ -6,3 +6,7 @@
 	hide-dirty = 1
 [pull]
 	rebase = true
+[color]
+	ui = true
+[core]
+	filemode = false
