@@ -2,7 +2,7 @@
  # @Author: xuhui 18867103881@139.com
  # @Date: 2023-07-03 23:10:19
  # @LastEditors: xuhui 18867103881@139.com
- # @LastEditTime: 2023-07-03 23:27:54
+ # @LastEditTime: 2023-07-03 23:11:26
  # @FilePath: /chezmoi/dot_xinitrc
  # @Description: 
  # 
@@ -16,7 +16,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   done
   unset f
 fi
-exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 
 fcitx5 &
 
