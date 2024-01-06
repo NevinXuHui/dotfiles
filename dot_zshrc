@@ -70,7 +70,6 @@ ZSH_THEME="ys"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-
 plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
@@ -81,7 +80,6 @@ plugins=(
     rsync
     sudo
 )
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -109,3 +107,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+ alias vim="nvim"
+ alias vi="nvim"
+ alias nv="nvim"
+ alias lg="lazygit"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
