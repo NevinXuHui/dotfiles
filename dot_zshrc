@@ -125,6 +125,8 @@ export PATH=$PATH:/usr/local/go/bin
  alias rng="ranger"
  alias rn="ranger"
  alias f="fzf"
+ alias nv="nvim"
  alias lg="lazygit"
+ alias cz="chezmoi"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
