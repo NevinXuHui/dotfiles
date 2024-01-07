@@ -108,6 +108,7 @@ if [[ -z "$TMUX" ]] ;then
     fi
 fi
 
+export PATH=$PATH:/usr/local/go/bin
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -116,9 +117,14 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+ alias nv="nvim"
  alias vim="nvim"
  alias vi="nvim"
- alias nv="nvim"
+ alias rsc="rsync-copy"
+ alias ob="obsidian"
+ alias rng="ranger"
+ alias rn="ranger"
+ alias f="fzf"
  alias lg="lazygit"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
