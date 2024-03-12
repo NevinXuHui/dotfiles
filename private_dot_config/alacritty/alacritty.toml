@@ -1,0 +1,17 @@
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[font]
+normal = { family = "Hack", style = "Regular" }
+bold = { family = "Hack", style = "Bold" }
+italic = { family = "Hack", style = "Italic" }
+bold_italic = { family = "Hack", style = "Bold Italic" }
+size = 11
+
+
+[window]
+dimensions = { columns = 160, lines = 60  }
+padding = { x = 3, y = 3 }
+dynamic_padding = true
+opacity = 0.9
