@@ -129,6 +129,7 @@ export PATH=$PATH:/usr/local/go/bin
  alias nv="nvim"
  alias lg="lazygit"
  alias cz="chezmoi"
+ alias ch="chezmoi"
  alias ls="ls --color=auto"
  alias ze="zellij"
 
