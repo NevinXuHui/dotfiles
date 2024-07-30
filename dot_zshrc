@@ -75,7 +75,6 @@ plugins=(
     zsh-autosuggestions
     git
     autojump
-    extract
     vi-mode
     rsync
     ranger-autojump
