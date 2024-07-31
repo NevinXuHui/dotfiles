@@ -79,6 +79,7 @@ plugins=(
     rsync
     ranger-autojump
     sudo
+    zellij
 )
 source $ZSH/oh-my-zsh.sh
 
@@ -181,3 +182,5 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 
+
+[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
