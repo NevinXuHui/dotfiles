@@ -1,0 +1,13 @@
+# pack-refs with: peeled fully-peeled sorted 
+8f45f353dc3649cb9b44cecda96827ea88128584 refs/remotes/origin/create-pull-request/patch
+8f45f353dc3649cb9b44cecda96827ea88128584 refs/remotes/origin/main
+7b8f174de9cac9d892c6ffda3778b1e4f4288d44 refs/remotes/origin/neovim-pre-0.8.0
+8744b3845b4c8c6eb0056e3160c3409bfa3676ee refs/remotes/origin/release-please--branches--main
+32ec35391cf92dfc595069b51ff9275506470b24 refs/remotes/origin/release-please--branches--main--components--todo-comments.nvim
+e77a7b497da53778a56e56374b90ac3534510f58 refs/tags/stable
+^313b04e5b02d29ab9275c9295ff5e2b73921b0eb
+077c59586d9d0726b0696dc5680eb863f4e04bc5 refs/tags/v1.0.0
+0874bda6848ff6f3da3ffdf4bd8297a5c951c5d4 refs/tags/v1.0.1
+8febc60a76feefd8203077ef78b6a262ea1a41f9 refs/tags/v1.1.0
+a7e39ae9e74f2c8c6dc4eea6d40c3971ae84752d refs/tags/v1.2.0
+313b04e5b02d29ab9275c9295ff5e2b73921b0eb refs/tags/v1.3.0

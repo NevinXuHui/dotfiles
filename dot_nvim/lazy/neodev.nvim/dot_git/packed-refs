@@ -1,0 +1,20 @@
+# pack-refs with: peeled fully-peeled sorted 
+57ebae495074a6c77850699805d7063e916178eb refs/remotes/origin/create-pull-request/patch
+46aa467dca16cf3dfe27098042402066d2ae242d refs/remotes/origin/main
+da676626c7c5a0d32639bd07dc66053ce8416e94 refs/remotes/origin/release-please--branches--main--components--neodev.nvim
+9dbad6f28082d4fd7c325fe537ed19597afa4ab5 refs/tags/stable
+^1f4ebcc10852518166ce165e57d425a4265a10d4
+258b83f48405c6b530c09dd96950693664dc6bc0 refs/tags/v1.0.0
+0e3f5e763639951f96f9acbdc9f52a9fedf91b46 refs/tags/v2.0.0
+b836d7f573d9612e8f5c3c1eea7acbe8929ff968 refs/tags/v2.0.1
+6a2310ef6386e7a5ad5bdc56c844410bf5de8225 refs/tags/v2.1.0
+c0b14bb9d6a4d7e62408fe71bdcb23cab351986f refs/tags/v2.2.0
+1b21ea60f5b67946282b0b0312773e85fc6f9b05 refs/tags/v2.2.1
+fc9a4ccedcbae14454d66d5050bef077c40ab5e5 refs/tags/v2.3.0
+a81e749d0fe8429cd340b2e40f274b344bef42ac refs/tags/v2.4.0
+04c02d886f22a077dadb04e2330eebb2ea356f26 refs/tags/v2.4.1
+bd6a7222e8fbd1f4bca3f7a53d7328eddc0dd121 refs/tags/v2.4.2
+bd2b5deb568717cc0837c595cf7e945c17b6970d refs/tags/v2.5.0
+78fb6373437eb400f1629b17d4a529669fa2a062 refs/tags/v2.5.1
+da1562e1e3df0e994ddc52cb4ba22376a5d7f2fc refs/tags/v2.5.2
+1f4ebcc10852518166ce165e57d425a4265a10d4 refs/tags/v3.0.0

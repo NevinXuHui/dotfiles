@@ -1,0 +1,84 @@
+{
+  "name": "github-preview.nvim",
+  "author": "wallpants",
+  "type": "module",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Live preview of local github repos",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wallpants/github-preview.nvim.git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0
+      ]
+    }
+  },
+  "scripts": {
+    "commit": "cz",
+    "format": "prettier **/*.{md,ts,tsx,css,yml} -w",
+    "logs": "bunvim logs github-preview",
+    "lint": "eslint . --ext ts --ext tsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "tsc -p ./app/tsconfig.json",
+    "check": "bun run typecheck && bun run lint",
+    "start": "bun run app/index.ts",
+    "web:dev": "cd app/web && bun vite --open",
+    "tailwind:compile": "tailwindcss -c ./app/web/tailwind.config.cjs -o ./app/web/static/tailwind.css"
+  },
+  "dependencies": {
+    "bunvim": "1.1.12",
+    "clsx": "^2.1.1",
+    "globby": "^14.0.1",
+    "isbinaryfile": "5.0.2",
+    "mermaid": "^10.9.1",
+    "opener": "^1.5.2",
+    "pantsdown": "2.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "reconnecting-websocket": "^4.4.0",
+    "tailwind-merge": "^2.3.0",
+    "valibot": "^0.30.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/cz-commitlint": "^19.2.0",
+    "@types/bun": "latest",
+    "@types/eslint": "^8.56.10",
+    "@types/opener": "^1.4.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "autoprefixer": "^10.4.19",
+    "commitizen": "^4.3.0",
+    "commitlint": "^19.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-tailwindcss": "^3.17.0",
+    "inquirer": "^9.2.23",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.0",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "semantic-release": "^23.1.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12"
+  }
+}

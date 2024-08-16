@@ -1,0 +1,18 @@
+# pack-refs with: peeled fully-peeled sorted 
+41900f446068eb1ddf59678206015046d9f1e942 refs/remotes/origin/jay-babu-patch-1
+de19726de7260c68d94691afb057fa73d3cc53e7 refs/remotes/origin/main
+8f90d93b1597ee2ae0896e1eaf496530dbeae981 refs/tags/stable
+^2b8433f76598397fcc97318d410e0c4f7a4bea6a
+3a588ae89981ae67ae2704f2f22d5ca6bba52f07 refs/tags/v1.0.0
+29ce60f9a16fef3de682a9365ef635f24ae92bf9 refs/tags/v1.1.0
+a991e7697514f30126fac7c07a11c488c553e94f refs/tags/v1.2.0
+04fc5094269c4354f0409d515d1d9539a0d076e3 refs/tags/v2.0.0
+834bb5d6dd72db0a82d4b90a25500fdc14a3bc43 refs/tags/v2.0.1
+cfbd83909cbc56e2f07cb3f8a03157e069c5c91c refs/tags/v2.0.2
+ae0c5fa57468ac65617f1bf821ba0c3a1e251f0c refs/tags/v2.1.0
+d1f7258f80867f718d643d88eee66959671a4bef refs/tags/v2.2.0
+62ca3b15d637936147b19d921c228a7b6ba5263e refs/tags/v2.3.0
+a1e19bf9baa86e8a43dd86cf9689ca9f71b4d1da refs/tags/v2.4.0
+bfaa24b899233385c92364f95856e6280bddef30 refs/tags/v2.5.0
+e270134d83ba59425edc53356c6fd337b61bb8dd refs/tags/v2.5.1
+2b8433f76598397fcc97318d410e0c4f7a4bea6a refs/tags/v2.6.0

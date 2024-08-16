@@ -1,0 +1,13 @@
+73215b77d22ebb179cef98e7e1235825431d10e4 HEAD
+05e3d7ecf3f8b560a84961721e938ccf6a8e3a67 refs/heads/feat-defer-sqlite-storage
+d4cae80c4fa9c370ecef5bce799ebb3a5c14c01b refs/heads/fix-cursor-telescope-insert-mode
+73215b77d22ebb179cef98e7e1235825431d10e4 refs/heads/main
+84acb14b3df185bfc9f32ae2985727e450665e91 refs/heads/revert-0dc8e0f
+1c96ef6d44f6d2a8a034f4eb242ddaa015674d1c refs/tags/v0.1.0
+daddd5c3fd7b0337608772426661abfed46a8470 refs/tags/v0.2.0
+57380fe70758dae6aeac5a304a0b28b3cff3cb5c refs/tags/v0.3.0
+9fb1c211775b5a6c83b9fe806cfd99f68c65f8a0 refs/tags/v1.0.0
+0f319ff5bafbacec33b30e335825d04df912a82f refs/tags/v1.0.0-beta
+c54a43cb377710b17907be8c863967fee1ffc4ee refs/tags/v1.0.1
+636632d70ac00c45bdc1751d7b35c83d47081f36 refs/tags/v1.0.2
+9268018e92d02650a94e39dd5f5903c542f7ea11 refs/tags/v2.0.0

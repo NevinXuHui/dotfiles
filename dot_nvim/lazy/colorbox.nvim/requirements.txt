@@ -1,0 +1,6 @@
+selenium
+tinydb
+click
+mdutils
+typing-extensions
+luadata

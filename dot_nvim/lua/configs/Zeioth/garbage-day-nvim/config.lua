@@ -1,0 +1,1 @@
+require("garbage-day").setup({})

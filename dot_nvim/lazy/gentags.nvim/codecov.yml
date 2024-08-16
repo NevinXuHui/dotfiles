@@ -1,0 +1,12 @@
+coverage:
+  status:
+    project:
+      default:
+        threshold: 90%
+    patch:
+      default:
+        threshold: 90%
+ignore:
+  - "lua/gentags/commons/*.lua"
+  - "lua/gentags/commons/*/*.lua"
+  - "lua/gentags/commons/*/*.lua"

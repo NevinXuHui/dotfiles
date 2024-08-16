@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Language support for Astro",
+  "properties": {
+    "astro.content-intellisense": {
+      "default": false,
+      "description": "Enable experimental support for content collection intellisense inside Markdown, MDX and Markdoc. Note that this require also enabling the feature in your Astro config (experimental.contentCollectionIntellisense) (Astro 4.14+)",
+      "scope": "resource",
+      "type": "boolean"
+    },
+    "astro.language-server.ls-path": {
+      "description": "Path to the language server executable. You won't need this in most cases, set this only when needing a specific version of the language server",
+      "title": "Language Server: Path",
+      "type": "string"
+    },
+    "astro.language-server.runtime": {
+      "description": "Path to the node executable used to execute the language server. You won't need this in most cases",
+      "scope": "application",
+      "title": "Language Server: Runtime",
+      "type": "string"
+    },
+    "astro.trace.server": {
+      "default": "off",
+      "description": "Traces the communication between VS Code and the language server.",
+      "enum": [
+        "off",
+        "messages",
+        "verbose"
+      ],
+      "scope": "window",
+      "type": "string"
+    }
+  }
+}

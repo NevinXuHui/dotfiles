@@ -1,0 +1,35 @@
+# runtime
+.DS_Store
+/.copypaste
+
+# third-party
+/lazy-lock.json
+/mason
+/lazy
+/universal-ctags
+/golang-tools-install-script
+
+# hooks
+/preinit.vim
+/postinit.vim
+/lua/preinit.lua
+/lua/postinit.lua
+
+# plugin hooks
+/lua/plugins/users.lua
+/lua/plugins_blacklist.lua
+/lua/configs/**/user_init.lua
+/lua/configs/**/user_init.vim
+/lua/configs/**/user_config.lua
+/lua/configs/**/user_config.vim
+/lua/configs/**/user_keys.lua
+
+# lsp hooks
+/lua/configs/**/ensure_installed.lua
+/lua/configs/**/setup_handlers.lua
+/lua/configs/stevearc/conform-nvim/formatters_by_ft.lua
+/lua/configs/mfussenegger/nvim-lint/linters_by_ft.lua
+/neoconf.json
+
+# nvim-cmp hooks
+/lua/configs/hrsh7th/nvim-cmp/setup_handler.lua

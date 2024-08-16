@@ -1,0 +1,13 @@
+{
+  "diagnostics.globals": [
+    "vim",
+    "describe",
+    "before_each",
+    "it",
+    "jit",
+    "utf8"
+  ],
+  "diagnostics.disable": [],
+  "runtime.version": "LuaJIT",
+  "workspace.checkThirdParty": "Disable"
+}

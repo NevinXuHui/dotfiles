@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+b60eb8f5f5257778645d9472d666853e1b86cc66 refs/remotes/origin/gh-health
+12b0487d42a3bb6cee4a4529219e8e62e2d0e93d refs/remotes/origin/jobstart
+c07733179e27c225ac3c58c3951701ee10b2dbde refs/remotes/origin/main
+7651a2165c9f79aac91c8ede022dfb3dee996a2d refs/remotes/origin/packer-refactor
+a297c844b8053c1831eb2d5222df6271e0e4e75e refs/remotes/origin/url-parser
+da852a2d7e2aabae6d60178267d175d02c3396e2 refs/tags/v0.6-compat

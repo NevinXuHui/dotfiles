@@ -1,0 +1,15 @@
+# pack-refs with: peeled fully-peeled sorted 
+6741f1062d3dc6e4755367a7e9b347b553623f04 refs/remotes/origin/master
+e9d0de44707fe5ce06be6f6959d33a3fab985a3c refs/remotes/origin/nvim-0.5
+f16d7586fcdd8b2e3850d0abb7e46f944125cc25 refs/remotes/origin/nvim-0.7
+5bfd884dd2a3b0b4d299196e87ed5d0cfadb966d refs/remotes/origin/release-please--branches--master
+68348df383806233bb33ba09d940d55c41bb8f71 refs/remotes/origin/stevearc-confirm
+35f6b80c0bbb14a9c37cbb1cf2544090c683eb63 refs/tags/stable
+^71349f24c6e07b39f33600985843c289ca735308
+e6eff7a5a950a853c3903d906dbcea03f778db5f refs/tags/v1.0.0
+c0b67f3e2950adc07b555d3e73e38275b4a585ce refs/tags/v2.0.0
+59fe7ef1aeeed499b983614fcfff89206bf0d5ce refs/tags/v2.0.1
+8b7ae53d7f04f33be3439a441db8071c96092d19 refs/tags/v2.1.0
+42d767b04c50a6966c9633e3968bc65c0c2f2bfc refs/tags/v2.2.0
+572314728cb1ce012e825fd66331f52c94acac12 refs/tags/v2.2.1
+71349f24c6e07b39f33600985843c289ca735308 refs/tags/v2.2.2

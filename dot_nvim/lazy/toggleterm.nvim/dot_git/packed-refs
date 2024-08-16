@@ -1,0 +1,30 @@
+# pack-refs with: peeled fully-peeled sorted 
+6ea176907d4cd8ec18f5d1c970b10ddbcbb37304 refs/remotes/origin/bugfix/check-existence-float-hls
+0144aaaaf0995fdeea3e9925a75cba87cdf1820f refs/remotes/origin/bugfix/terminal-commands
+654826e85072e1aa2f7b0de28ab9a4522c9654bf refs/remotes/origin/feat/add-float-title
+f4637c80b400c1812ace254827fa18c8ae323d30 refs/remotes/origin/highlights
+137d06fb103952a0fb567882bb8527e2f92d327d refs/remotes/origin/main
+e3ff98848c54c96073c77ed77e6004728a9e0b44 refs/remotes/origin/release-please--branches--main--components--toggleterm.nvim
+1968d2f752df79758f481bffb72c1421a0cd6ba9 refs/tags/2.3.0
+^2a787c426ef00cb3488c11b14f5dcf892bbd0bda
+445ac215d17d29b3708eff279d510c011e8b257d refs/tags/2.4.0
+^a5638b2206c3930a16a24e5c184dddd572f8cd34
+92a3e0395a2793b0b54d2fa25f104e3a28f5331c refs/tags/v1.0.0
+^443afa9e02a5935be7e3cfc54ed94aae712f5f6c
+f7a66415d8006a82c94486eda54b4cde58e3b2f3 refs/tags/v2.0.0
+^e783fd4466a30658821c27418defd6bf0060e3c9
+2e06e7506b600cd3b333160f775fcc698731fd0a refs/tags/v2.1.0
+^1a8b330d3da8b5ee3d726cdc1797ac83ef84b695
+193786e0371e3286d3bc9aa0079da1cd41beaa62 refs/tags/v2.10.0
+066cccf48a43553a80a210eb3be89a15d789d6e6 refs/tags/v2.11.0
+48be57eaba817f038d61bbf64d2c597f578c0827 refs/tags/v2.12.0
+5e7aef4fd0dd7485bd06d2ff1f6a1ed51a119a57 refs/tags/v2.2.0
+^7fb7cdf875f6c07285e4aae6a1a7f27b77b3485c
+4fc2deb1c97d748241bb36ceeb9ed5ed6c2475c3 refs/tags/v2.2.1
+^f494c61024ffa25ee407d55b04d8b28ba9e839cb
+b86982429325112d2b20c6d0cc7a5c4b182ab705 refs/tags/v2.5.0
+026dff5e2b504941cf172691561a67ea362596aa refs/tags/v2.6.0
+95204ece0f2a54c89c4395295432f9aeedca7b5f refs/tags/v2.7.0
+b90a1381e9b5b8596f49070ee86c71db267ac868 refs/tags/v2.7.1
+faee9d60428afc7857e0927fdc18daa6c409fa64 refs/tags/v2.8.0
+cbd041d91b90cd3c02df03fe6133208888f8e008 refs/tags/v2.9.0

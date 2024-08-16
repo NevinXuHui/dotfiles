@@ -1,0 +1,10 @@
+modules = {
+    ["commons.*"] = "lua",
+}
+
+exclude = {
+    "lua/commons/_system.lua",
+    "lua/commons/_uri.lua",
+    "lua/commons/async.lua",
+    "lua/commons/color/hsl.lua",
+}

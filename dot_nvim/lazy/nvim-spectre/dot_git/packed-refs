@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+69d55c8adc05c3bd1bd11a014f1dbd38c777cd45 refs/remotes/origin/bot/vimdoc/master
+d91155ede037444b1bbca43ec987db479398c550 refs/remotes/origin/docs
+ba7fb777edff6c1fbbeffd343e113af64c04e90a refs/remotes/origin/master
+66e06bf3d7f33eec8076b067297ff15f77031e10 refs/remotes/origin/revert-151-master
+4604aa7a9d6c7611f96e467c080b602645a5b408 refs/remotes/origin/revert-188-master
