@@ -230,6 +230,7 @@ for_window [urgent=latest] focus
 
 
 for_window [class="Code"] move to workspace $ws2
+for_window [class="obsidian"] move to workspace $ws4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -301,6 +302,7 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id fcitx5
 exec_always --no-startup-id utools
+exec_always --no-startup-id obsidian
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
