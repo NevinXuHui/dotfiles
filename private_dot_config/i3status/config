@@ -20,19 +20,19 @@ order += "ipv6"
 order += "cpu_temperature 0"
 order += "cpu_usage"
 ## 取消显示硬盘使用情况
-#order += "disk /"
+order += "disk /mine"
 # order += "disk /home"
 ## 无线网络信息使用默认参数 _first_ 可能无法找到无线信息，这里直接制定我的无线网络的名称，可以使用 ip addr查看，相当于ifconfig
 #order += "wireless _first_"
-order += "wireless wlp3s0"
+order += "wireless wlo1"
 #order += "ethernet _first_"
-# order += "load"
+order += "load"
 order += "memory"
 order += "tztime local"
-order += "battery all"
+#order += "battery all"
 
 ## 定制无线网络信息
-wireless wlp3s0 {
+wireless wlo1 {
     format_up = " %quality  %essid %ip"
     format_down = "W: down"
 }
@@ -46,7 +46,7 @@ load {
         # max_threshold = 0.3
 }
 
-disk "/" {
+disk "/mine" {
         # format = " hdd %avail "
         format = " ⛁ %avail "
 }
@@ -77,7 +77,7 @@ battery all {
 }
 
 memory {
-        format = " %used | %available"
+        format = "%used | %available"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
@@ -91,7 +91,7 @@ tztime local {
 
 ## 定制温度控制器
 cpu_temperature 0 {
-        format = " %degrees °C"
+        format = "%degrees °C"
         max_threshold = 85
         path = "/sys/class/thermal/thermal_zone0/temp"
 }
