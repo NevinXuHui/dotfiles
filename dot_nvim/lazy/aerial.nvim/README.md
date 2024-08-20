@@ -168,7 +168,6 @@ In addition, you will need to have either Treesitter or a working LSP client. Yo
 - snakemake
 - solidity
 - teal
-- toml
 - tsx
 - typescript
 - usd

@@ -1,0 +1,17 @@
+e75a3df2c20b3a98c786f5e61587d74a7a6b61d6 HEAD
+e75a3df2c20b3a98c786f5e61587d74a7a6b61d6 refs/heads/master
+8fad35eabc85db6c545bb333451136d0dc0a474e refs/heads/nvim-0.5
+d8343d0c935a72382413f9344ae0e39072405b7d refs/heads/nvim-0.8
+ecdcffaaf749a5261712e2eb92cb0f3e3a46ef24 refs/heads/release-please--branches--master
+f8c5b93e10611356264602e9bc1046d478124731 refs/heads/stevearc-rename
+2223f39dfee869c1a0d529733fa533cda1bb6338 refs/tags/stable
+603c805d2d46deb3f9d492d829cc320ef0184d37 refs/tags/v1.0.0
+fb1f08c9f90e8b0c04b2f2c5d95d06288a14c5b2 refs/tags/v1.1.0
+ae33427e1aa54bfdd164313716cdc10e7d7b927a refs/tags/v1.2.0
+63ec2bfc3d9b8ce1fd943fff14781504d8ee250e refs/tags/v1.3.0
+e9661d4f739508377f42528fd08a85c4c8feba6e refs/tags/v1.4.0
+3748e87a316a68754341cdffcef44fee61dee51c refs/tags/v1.5.0
+399e276328be8242ccde01d90f6f6c619f7bb24f refs/tags/v1.6.0
+4d10acbcb760802ea74381ac3ed98cbb6e5f7805 refs/tags/v1.7.0
+d8343d0c935a72382413f9344ae0e39072405b7d refs/tags/v1.8.0
+7e2615991cf110f6688112abcb45cf338248d1f6 refs/tags/v2.0.0

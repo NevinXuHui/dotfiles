@@ -265,7 +265,6 @@ local builtin_supported_filetypes = {
   "NvimTree",
   "OverseerList",
   "spectre_panel",
-  "grug-far",
 }
 
 ---The default function for config.get_auto_pin

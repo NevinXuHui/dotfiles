@@ -7,7 +7,7 @@ a13f4de8592c472b8d32c5440af35d43fb895a27 refs/remotes/origin/feat-winbar-backgro
 01c20e2d1bc9923e82b9020e3e7c6c36c7b59d61 refs/remotes/origin/fix-enable-condition
 fd917b70535371d45285bc94f9eb6387677c6dce refs/remotes/origin/fix-fzf-select-file
 c3e9dd3eaeee38e843390d9eb6f623a699c0a174 refs/remotes/origin/fix-highlight
-c53d1d312407927903f0ce4bb504e25113641989 refs/remotes/origin/master
+aa4c0ab1ade45ff9a3c5d4c06365c9b119f32d36 refs/remotes/origin/master
 8639c88705a0f6bd6cc2a5d596b748db3bc7a809 refs/remotes/origin/master-shadow
 524d120f3750afdc564d3f557aa0bf005962b18e refs/remotes/origin/refactor-sources
 3693a19e689ca9a0023afd82de959531a19f002c refs/remotes/origin/release-please--branches--master--components--dropbar.nvim
@@ -42,4 +42,3 @@ f1034cfe852cf62a0ebb12ae583f1477ea07e060 refs/tags/v8.3.0
 fe299f1b1d7580ebe0b2b108843e4538e2a2ff46 refs/tags/v8.4.0
 3dd8edba9f9eeb129db269dd57ef6c0427b7ad9d refs/tags/v8.5.0
 79847a78ec0c58f5e5c0360192b03d0cee803e95 refs/tags/v8.6.0
-c53d1d312407927903f0ce4bb504e25113641989 refs/tags/v8.6.1

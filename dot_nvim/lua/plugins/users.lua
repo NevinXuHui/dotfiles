@@ -56,7 +56,7 @@ return {
     config = lua_config("folke/flash.nvim"),
     keys = lua_keys("folke/flash.nvim"),
   },
-  -- -- Java
+  -- Java
   -- {
   --   "nvim-java/nvim-java",
   --   dependencies = {

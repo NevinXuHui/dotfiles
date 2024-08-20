@@ -564,8 +564,6 @@ type Window interface {
 	CPrint(color ColorPair, text string)
 	Fill(text string) FillReturn
 	CFill(fg Color, bg Color, attr Attr, text string) FillReturn
-	LinkBegin(uri string, params string)
-	LinkEnd()
 	Erase()
 	EraseMaybe() bool
 }

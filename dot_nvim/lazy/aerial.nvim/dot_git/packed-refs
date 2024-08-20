@@ -1,11 +1,11 @@
 # pack-refs with: peeled fully-peeled sorted 
-263beeb92961c15882b7853805f0ae2024f2e903 refs/remotes/origin/master
+e75a3df2c20b3a98c786f5e61587d74a7a6b61d6 refs/remotes/origin/master
 8fad35eabc85db6c545bb333451136d0dc0a474e refs/remotes/origin/nvim-0.5
 d8343d0c935a72382413f9344ae0e39072405b7d refs/remotes/origin/nvim-0.8
-9b67defd7fdc03e6d752e9e5ed4ecbb61ed60453 refs/remotes/origin/release-please--branches--master
+ecdcffaaf749a5261712e2eb92cb0f3e3a46ef24 refs/remotes/origin/release-please--branches--master
 f8c5b93e10611356264602e9bc1046d478124731 refs/remotes/origin/stevearc-rename
-bf69894ee86f360e3809c5f6d7e2696c9e2da056 refs/tags/stable
-^d5ba0e3cfede432cec7e6ab28724c4a554ea0f09
+2223f39dfee869c1a0d529733fa533cda1bb6338 refs/tags/stable
+^7e2615991cf110f6688112abcb45cf338248d1f6
 603c805d2d46deb3f9d492d829cc320ef0184d37 refs/tags/v1.0.0
 fb1f08c9f90e8b0c04b2f2c5d95d06288a14c5b2 refs/tags/v1.1.0
 ae33427e1aa54bfdd164313716cdc10e7d7b927a refs/tags/v1.2.0
@@ -16,4 +16,3 @@ e9661d4f739508377f42528fd08a85c4c8feba6e refs/tags/v1.4.0
 4d10acbcb760802ea74381ac3ed98cbb6e5f7805 refs/tags/v1.7.0
 d8343d0c935a72382413f9344ae0e39072405b7d refs/tags/v1.8.0
 7e2615991cf110f6688112abcb45cf338248d1f6 refs/tags/v2.0.0
-d5ba0e3cfede432cec7e6ab28724c4a554ea0f09 refs/tags/v2.1.0

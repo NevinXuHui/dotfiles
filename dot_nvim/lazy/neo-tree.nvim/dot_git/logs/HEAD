@@ -1,2 +1,2 @@
-0000000000000000000000000000000000000000 206241e451c12f78969ff5ae53af45616ffc9b72 arch <arch@arch-u6.(none)> 1723724588 +0800	clone: from https://github.com/nvim-neo-tree/neo-tree.nvim.git
-206241e451c12f78969ff5ae53af45616ffc9b72 8c75e8a2949cd6cd35525799200a8d34471ee9eb arch <arch@arch-u6.(none)> 1723724592 +0800	checkout: moving from main to tags/3.26
+0000000000000000000000000000000000000000 206241e451c12f78969ff5ae53af45616ffc9b72 arch <archi3@arch-3-m10.(none)> 1723308576 +0800	clone: from https://github.com/nvim-neo-tree/neo-tree.nvim.git
+206241e451c12f78969ff5ae53af45616ffc9b72 8c75e8a2949cd6cd35525799200a8d34471ee9eb arch <archi3@arch-3-m10.(none)> 1723308596 +0800	checkout: moving from main to tags/3.26
