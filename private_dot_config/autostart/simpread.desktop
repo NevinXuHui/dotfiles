@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=simpread
+Exec=/usr/bin/Simpread
+Terminal=False
+Type=Application
