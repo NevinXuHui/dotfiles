@@ -119,7 +119,6 @@ export PATH=$PATH:/usr/local/go/bin
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
  alias nv="nvim"
- alias vim="nvim"
  alias vi="nvim"
  alias rsc="rsync-copy"
  alias ob="obsidian"
@@ -133,6 +132,7 @@ export PATH=$PATH:/usr/local/go/bin
  alias ls="ls --color=auto"
  alias ze="zellij"
  alias co="code"
+ alias ld="lazydocker"
 
 if [[ -z $commands[eza] ]]; then
     echo 'eza is not installed. See https://github.com/eza-community/eza'
@@ -186,6 +186,6 @@ unset __conda_setup
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 
 
-source /opt/ros/noetic/setup.zsh
+#source /opt/ros/noetic/setup.zsh
 
 
