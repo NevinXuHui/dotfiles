@@ -119,12 +119,11 @@ export PATH=$PATH:/usr/local/go/bin
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
  alias nv="nvim"
- alias vi="nvim"
  alias rsc="rsync-copy"
  alias ob="obsidian"
  alias rng="ranger"
  alias rn="ranger"
- alias f="fzf"
+ alias ff="fzf"
  alias nv="nvim"
  alias lg="lazygit"
  alias cz="chezmoi"
@@ -133,24 +132,6 @@ export PATH=$PATH:/usr/local/go/bin
  alias ze="zellij"
  alias co="code"
  alias ld="lazydocker"
-
-if [[ -z $commands[eza] ]]; then
-    echo 'eza is not installed. See https://github.com/eza-community/eza'
-    return 1
-fi
-
-# general use
-alias ls='eza'                                                         # ls
-alias l='eza -lbF --git'                                               # list, size, type, git
-#alias ll='eza -lbGF --git'                                             # long list
-#alias llm='eza -lbGF --git --sort=modified'                            # long list, modified date sort
-#alias la='eza -lbhHigUmuSa --time-style=long-iso --git --color-scale'  # all list
-#alias lx='eza -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
-
-# speciality views
-alias lS='eza -1'                                                      # one column, just names
-alias lt='eza --tree --level=2'                                        # tree
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #eval "$(zellij setup --generate-auto-start zsh)"
@@ -185,7 +166,25 @@ unset __conda_setup
 
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 
+# 获取当前 Ubuntu 版本
+source /etc/os-release
+ubuntu_version=$VERSION_ID
+#echo "当前 Ubuntu 版本是: $ubuntu_version"
 
-#source /opt/ros/noetic/setup.zsh
+
+# 根据版本号执行不同的命令
+if [ "$ubuntu_version" = "20.04" ]; then
+    # 当版本为 20.04 时执行的命令
+   # echo "当前是 Ubuntu 20.04，执行特定命令"
+    source /opt/ros/foxy/setup.zsh
+elif [ "$ubuntu_version" = "22.04" ]; then
+    # 当版本为 22.04 时执行的命令
+    #echo "当前是 Ubuntu 22.04，执行特定命令"
+    # 这里可以替换为你在 22.04 版本需要执行的具体命令
+    source /opt/ros/humble/setup.zsh
+    # 例如：sudo apt-get install some-package-22.04
+else
+    echo "当前 Ubuntu 版本不是 20.04 也不是 22.04"
+fi
 
 
