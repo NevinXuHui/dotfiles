@@ -8,11 +8,7 @@ To start using it, add the `macos` plugin to your plugins array in `~/.zshrc`:
 plugins=(... macos)
 ```
 
-## Supported Terminals
-- [iTerm](https://iterm.sourceforge.net/)
-- [iTerm2](https://iterm2.com/)
-- [Hyper](https://hyper.is/)
-- [Tabby](https://tabby.sh/)
+Original author: [Sorin Ionescu](https://github.com/sorin-ionescu)
 
 ## Commands
 
@@ -41,9 +37,7 @@ plugins=(... macos)
 
 ## Acknowledgements
 
-Original author: [Sorin Ionescu](https://github.com/sorin-ionescu)
-
-This application makes use of the following third-party scripts:
+This application makes use of the following third party scripts:
 
 [shpotify](https://github.com/hnarayanan/shpotify)
 

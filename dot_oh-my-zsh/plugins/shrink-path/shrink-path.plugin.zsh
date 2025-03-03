@@ -56,16 +56,7 @@ shrink_path () {
                 tilde=1
                 named=1
         fi
-
-        local last
-        zstyle -s ':prompt:shrink_path' last last
-        case "$last" in
-          (false|no|off|0) lastfull=0 ;;
-          (true|yes|on|1) lastfull=1 ;;
-          (""|*[^0-9]*) lastfull=0 ;;
-          (*) lastfull=$last ;;
-        esac
-
+        zstyle -t ':prompt:shrink_path' last && lastfull=1
         zstyle -t ':prompt:shrink_path' short && short=1
         zstyle -t ':prompt:shrink_path' tilde && tilde=1
         zstyle -t ':prompt:shrink_path' glob && ellipsis='*'
@@ -87,7 +78,7 @@ shrink_path () {
                                 print 'Usage: shrink_path [-f -l -s -t] [directory]'
                                 print ' -f, --fish      fish-simulation, like -l -s -t'
                                 print ' -g, --glob      Add asterisk to allow globbing of shrunk path (equivalent to -e "*")'
-                                print ' -l, --last [#]  Print the last n directory''s full name (default 1).'
+                                print ' -l, --last      Print the last directory''s full name'
                                 print ' -s, --short     Truncate directory names to the number of characters given by -#. Without'
                                 print '                 -s, names are truncated without making them ambiguous.'
                                 print ' -t, --tilde     Substitute ~ for the home directory'
@@ -102,13 +93,7 @@ shrink_path () {
                                 print '  zstyle :prompt:shrink_path fish yes'
                                 return 0
                         ;;
-                        -l|--last)
-                          lastfull=1
-                          if [[ -n "$2" && "$2" != *[^0-9]* ]]; then
-                            shift
-                            lastfull=$1
-                          fi
-                        ;;
+                        -l|--last) lastfull=1 ;;
                         -s|--short) short=1 ;;
                         -t|--tilde) tilde=1 ;;
                         -T|--nameddirs)
@@ -163,8 +148,8 @@ shrink_path () {
                         cd -q /
                 }
                 for dir in $tree; {
-                        if (( lastfull && $#tree <= lastfull )) {
-                                result+="/${(j:/:)tree[@]}"
+                        if (( lastfull && $#tree == 1 )) {
+                                result+="/$tree"
                                 break
                         }
                         expn=(a b)

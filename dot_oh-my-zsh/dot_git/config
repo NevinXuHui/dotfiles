@@ -15,7 +15,7 @@
 	remote = origin
 	branch = master
 [remote "origin"]
-	url = https://github.com/ohmyzsh/ohmyzsh.git
+	url = https://gitee.com/pocmon/ohmyzsh.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 	remote = origin
