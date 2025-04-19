@@ -8,7 +8,7 @@ shell = { program = "/bin/zsh", args = ["-l"] }
 #bold_italic = { family = "Hack Nerd Font Mono", style = "Bold Italic" }
 #size = 7
 [font]
-size = 7.0
+size = 12.0
 
 [font.bold]
 family = "Hack Nerd Font Mono"
