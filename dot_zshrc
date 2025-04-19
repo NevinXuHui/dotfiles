@@ -188,3 +188,4 @@ else
 fi
 
 
+PATH=~/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/home/xuhui/.x-cmd.root/bin:/home/debian/anaconda3/bin:/home/xuhui/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/xuhui/.x-cmd.root/local/data/triarii/bin
