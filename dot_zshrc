@@ -177,12 +177,12 @@ ubuntu_version=$VERSION_ID
 if [ "$ubuntu_version" = "20.04" ]; then
     # 当版本为 20.04 时执行的命令
    # echo "当前是 Ubuntu 20.04，执行特定命令"
-    source /opt/ros/foxy/setup.zsh
+    
 elif [ "$ubuntu_version" = "22.04" ]; then
     # 当版本为 22.04 时执行的命令
     #echo "当前是 Ubuntu 22.04，执行特定命令"
     # 这里可以替换为你在 22.04 版本需要执行的具体命令
-    source /opt/ros/humble/setup.zsh
+    
     # 例如：sudo apt-get install some-package-22.04
 else
     echo "当前 Ubuntu 版本不是 20.04 也不是 22.04"
@@ -195,3 +195,11 @@ PATH=~/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l
 [ -z "$ALACRITTY_WINDOW_ID" ] || eval "$(zellij setup --generate-auto-start zsh)"
 
 
+export http_proxy=socks://192.168.192.2:9999
+export https_proxy=socks://192.168.192.2:9999
+export all_proxy=socks://192.168.192.2:9999
+
+
+# >>> fishros initialize >>>
+source /opt/ros/humble/setup.zsh
+# <<< fishros initialize <<<
