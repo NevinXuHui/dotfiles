@@ -125,6 +125,7 @@ export PATH=$PATH:/usr/local/go/bin
  alias rng="ranger"
  alias rn="ranger"
  alias ff="fzf"
+ alias f="fzf"
  alias nv="nvim"
  alias lg="lazygit"
  alias cz="chezmoi"
@@ -167,39 +168,20 @@ unset __conda_setup
 
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 
-# 获取当前 Ubuntu 版本
-source /etc/os-release
-ubuntu_version=$VERSION_ID
-#echo "当前 Ubuntu 版本是: $ubuntu_version"
 
+#
 
-# 根据版本号执行不同的命令
-if [ "$ubuntu_version" = "20.04" ]; then
-    # 当版本为 20.04 时执行的命令
-   # echo "当前是 Ubuntu 20.04，执行特定命令"
-    
-elif [ "$ubuntu_version" = "22.04" ]; then
-    # 当版本为 22.04 时执行的命令
-    #echo "当前是 Ubuntu 22.04，执行特定命令"
-    # 这里可以替换为你在 22.04 版本需要执行的具体命令
-    
-    # 例如：sudo apt-get install some-package-22.04
-else
-    echo "当前 Ubuntu 版本不是 20.04 也不是 22.04"
-fi
-
-
-PATH=~/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/home/xuhui/.x-cmd.root/bin:/home/debian/anaconda3/bin:/home/xuhui/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/xuhui/.x-cmd.root/local/data/triarii/bin
-
-
-[ -z "$ALACRITTY_WINDOW_ID" ] || eval "$(zellij setup --generate-auto-start zsh)"
-
-
-export http_proxy=socks://192.168.192.2:9999
-export https_proxy=socks://192.168.192.2:9999
-export all_proxy=socks://192.168.192.2:9999
 
 
 # >>> fishros initialize >>>
-source /opt/ros/humble/setup.zsh
+source /opt/ros/foxy/setup.zsh
 # <<< fishros initialize <<<
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+export GEMINI_API_KEY=AIzaSyCkfpS879o5EtyKVmPZ-Oqv047LwFjRI1U
+source /mine/code/robot-application-unitree/wt.sh
+
