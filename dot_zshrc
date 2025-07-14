@@ -213,5 +213,8 @@ PATH=/usr/local/go/bin:~/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j
 
 
 
-export http_proxy=127.0.0.1:7890
-export https_proxy=127.0.0.1:7890
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=http://127.0.0.1:7890
+
+# Git Worktree 工具 - 自动添加于 2025年 07月 14日 星期一 10:23:59 CST
+source /mine/note/Code/ROS/robot-application-origin/wt.sh
