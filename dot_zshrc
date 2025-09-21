@@ -133,6 +133,7 @@ export PATH=/usr/local/go/bin:$PATH
  alias ze="zellij"
  alias co="code"
  alias ld="lazydocker"
+ alias tt="tmux"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #eval "$(zellij setup --generate-auto-start zsh)"
@@ -205,16 +206,16 @@ export NVM_DIR="$HOME/.nvm"
 export GOOGLE_CLOUD_PROJECT=dotted-chariot-464922-r5
 export GEMINI_API_KEY=AIzaSyBr1ZqOze_deWe_fN4z00iWEfWQH2DcDyQ
 
-#export ANTHROPIC_AUTH_TOKEN=sk-CjHPH7Gd1pSSwOxW1nF7e58V2zf8dJsmhxqZ9vEwWmwA9JIV
-export ANTHROPIC_AUTH_TOKEN=sk-bIrPf7D0AFcc66DlrzOF2T4Rop4TbuQC1WUry1mczY3Iz3YL
 
 export ANTHROPIC_BASE_URL=https://anyrouter.top
 PATH=/usr/local/go/bin:~/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/home/xuhui/.nvm/versions/node/v22.17.0/bin:/home/xuhui/.local/bin:/home/xuhui/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/bin:/home/debian/anaconda3/bin:/home/xuhui/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xuhui/.x-cmd.root/local/data/triarii/bin
 
 
-
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=http://127.0.0.1:7890
-
 # Git Worktree 工具 - 自动添加于 2025年 07月 14日 星期一 10:23:59 CST
-source /mine/note/Code/ROS/robot-application-origin/wt.sh
+#source /mine/note/Code/ROS/robot-application-origin/wt.sh
+PATH=~/bin:/usr/local/go/bin:/home/xuhui/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/home/xuhui/.nvm/versions/node/v22.17.0/bin:/home/xuhui/.local/bin:/home/xuhui/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/bin:/home/debian/anaconda3/bin:/home/xuhui/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xuhui/.x-cmd.root/local/data/triarii/bin
+export PATH=~/.npm-global/bin:$PATH
+
+export ANTHROPIC_AUTH_TOKEN=sk-yKzCJLKJgLN4u3tiApVurVFuBVWyBTDt51p9baQIc9FxveIk
+
+export ANTHROPIC_BASE_URL=https://anyrouter.top
