@@ -383,6 +383,9 @@ tmux_conf_urlscan_options="--compact --dedupe"
 
 # this is the place to override or undo settings
 
+# set default shell to zsh
+set -g default-shell /usr/bin/zsh
+
 # increase history size
 set -g history-limit 50000
 
