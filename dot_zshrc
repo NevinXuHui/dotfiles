@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 #     fi
 # fi
 
-export PATH=/usr/local/go/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -119,12 +119,13 @@ export PATH=/usr/local/go/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
  alias nv="nvim"
+ alias vim="nvim"
+ alias vi="nvim"
  alias rsc="rsync-copy"
- alias rss="rsync-synchronize"
  alias ob="obsidian"
  alias rng="ranger"
  alias rn="ranger"
- alias ff="fzf"
+ alias f="fzf"
  alias nv="nvim"
  alias lg="lazygit"
  alias cz="chezmoi"
@@ -168,54 +169,31 @@ unset __conda_setup
 
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 
-# 获取当前 Ubuntu 版本
-source /etc/os-release
-ubuntu_version=$VERSION_ID
-#echo "当前 Ubuntu 版本是: $ubuntu_version"
+
+#
 
 
-# 根据版本号执行不同的命令
-if [ "$ubuntu_version" = "20.04" ]; then
-    # 当版本为 20.04 时执行的命令
-   # echo "当前是 Ubuntu 20.04，执行特定命令"
-    source /opt/ros/foxy/setup.zsh
-elif [ "$ubuntu_version" = "22.04" ]; then
-    # 当版本为 22.04 时执行的命令
-    #echo "当前是 Ubuntu 22.04，执行特定命令"
-    # 这里可以替换为你在 22.04 版本需要执行的具体命令
-    source /opt/ros/humble/setup.zsh
-    # 例如：sudo apt-get install some-package-22.04
-else
-    echo "当前 Ubuntu 版本不是 20.04 也不是 22.04"
-fi
 
+ export ANTHROPIC_AUTH_TOKEN=sk-PWiN1PrhAz5lb0PkUEcLPmWH0GnA1oGVmUeDXtatx4t8r2O7
 
-PATH=~/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/home/xuhui/.x-cmd.root/bin:/home/debian/anaconda3/bin:/home/xuhui/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/xuhui/.x-cmd.root/local/data/triarii/bin
+ export ANTHROPIC_BASE_URL=https://anyrouter.top
 
+# >>> fishros initialize >>>
+source /opt/ros/foxy/setup.zsh
+# <<< fishros initialize <<<
+export PATH="$HOME/.cargo/bin:$PATH"
 
-[ -z "$ALACRITTY_WINDOW_ID" ] || eval "$(zellij setup --generate-auto-start zsh)"
+# Auto-start zellij if not in VSCode or SSH
+#if [[ -z "$ZELLIJ" ]] && [[ "$TERM_PROGRAM" != "vscode" ]] && [[ -z "$VSCODE_INJECTION" ]] && [[ -z "$SSH_CONNECTION" ]] && [[ -t 0 ]]; then
+#    exec zellij
+#fi
 
+# Git Worktree 工具 - 自动添加于 2025年 10月 28日 星期二 14:07:04 CST
+source /mine/note/script/git/worktree/wt.sh
 
-export PATH=/usr/local/go/bin:$PATH
-export PATH="$HOME/.local/bin:$PATH"
+# zsh-autocomplete plugin - 类似 PSReadLine 的预测输入
+zstyle ':autocomplete:*' min-input 1          # 输入1个字符后显示
+zstyle ':autocomplete:*' max-lines 10         # 最多显示10行
+zstyle ':autocomplete:history-search:*' list-lines 8  # 历史命令显示8行
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export GOOGLE_CLOUD_PROJECT=dotted-chariot-464922-r5
-export GEMINI_API_KEY=AIzaSyBr1ZqOze_deWe_fN4z00iWEfWQH2DcDyQ
-
-
-export ANTHROPIC_BASE_URL=https://anyrouter.top
-PATH=/usr/local/go/bin:~/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/home/xuhui/.nvm/versions/node/v22.17.0/bin:/home/xuhui/.local/bin:/home/xuhui/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/bin:/home/debian/anaconda3/bin:/home/xuhui/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xuhui/.x-cmd.root/local/data/triarii/bin
-
-
-# Git Worktree 工具 - 自动添加于 2025年 07月 14日 星期一 10:23:59 CST
-#source /mine/note/Code/ROS/robot-application-origin/wt.sh
-PATH=~/bin:/usr/local/go/bin:/home/xuhui/bin:/home/xuhui/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/home/xuhui/.nvm/versions/node/v22.17.0/bin:/home/xuhui/.local/bin:/home/xuhui/bin:/opt/ros/humble/bin:/home/xuhui/.x-cmd.root/bin:/home/debian/anaconda3/bin:/home/xuhui/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xuhui/.x-cmd.root/local/data/triarii/bin
-export PATH=~/.npm-global/bin:$PATH
-
-export ANTHROPIC_AUTH_TOKEN=sk-yKzCJLKJgLN4u3tiApVurVFuBVWyBTDt51p9baQIc9FxveIk
-
-export ANTHROPIC_BASE_URL=https://anyrouter.top
+source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
