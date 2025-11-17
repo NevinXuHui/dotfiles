@@ -73,17 +73,30 @@ ZSH_THEME="ys"
 plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
+    zsh-fzf-history-search
     git
     autojump
     vi-mode
     rsync
     ranger-autojump
     sudo
-    zellij
 )
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+# 历史记录优化配置
+HISTSIZE=10000
+HISTFILESIZE=10000
+setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_SAVE_NO_DUPS
+setopt SHARE_HISTORY
+setopt INC_APPEND_HISTORY
+
+# fzf 历史搜索配置
+export ZSH_FZF_HISTORY_SEARCH_BIND='^r'
+export ZSH_FZF_HISTORY_SEARCH_FZF_EXTRA_ARGS='--preview="echo {}" --preview-window=hidden:wrap'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -109,7 +122,7 @@ source $ZSH/oh-my-zsh.sh
 #     fi
 # fi
 
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:$HOME/.fzf/bin
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -169,18 +182,6 @@ unset __conda_setup
 
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 
-
-#
-
-
-
- export ANTHROPIC_AUTH_TOKEN=sk-PWiN1PrhAz5lb0PkUEcLPmWH0GnA1oGVmUeDXtatx4t8r2O7
-
- export ANTHROPIC_BASE_URL=https://anyrouter.top
-
-# >>> fishros initialize >>>
-source /opt/ros/foxy/setup.zsh
-# <<< fishros initialize <<<
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # Auto-start zellij if not in VSCode or SSH
@@ -191,9 +192,14 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Git Worktree 工具 - 自动添加于 2025年 10月 28日 星期二 14:07:04 CST
 source /mine/note/script/git/worktree/wt.sh
 
-# zsh-autocomplete plugin - 类似 PSReadLine 的预测输入
-zstyle ':autocomplete:*' min-input 1          # 输入1个字符后显示
-zstyle ':autocomplete:*' max-lines 10         # 最多显示10行
-zstyle ':autocomplete:history-search:*' list-lines 8  # 历史命令显示8行
 
-source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# >>> fishros initialize >>>
+source /opt/ros/humble/setup.zsh
+# <<< fishros initialize <<<
+export PATH=/root/.local/bin:$PATH
+export FACTORY_API_KEY="fk-fAOwL4R0HodQJzSm0HY9--VP6Xd1y7o6PKA3Nov-Zj_VqUMZMiI0N5M6uLLyZuCQ"
+export PATH=$HOME/.local/bin:$PATH
